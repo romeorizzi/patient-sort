@@ -1,0 +1,6 @@
+[problem]
+title = "Monovariant for patientsort"
+
+[scoring]
+goals=["correct_monovariant","exponential_bound","Knuth_true_bound","Knuth_dream_bound", "linear_time"]
+

@@ -1,0 +1,19 @@
+function my_decreasing_monovariant_eval(n, p[]);
+// At every step shpuld decrease by at least one.
+// Always greater than or equal to zero  
+
+function upper_bound_on_my_monovariant_eval(n);
+// At every step should decrease by at least one.
+
+
+main {
+   read n;   
+   for i to n {
+      read p[i]; 
+   }
+   call eval = my_decreasing_monovariant_eval(n, p);
+   write eval;
+   
+   call upper_bound = upper_bound_on_my_monovariant_eval(n);
+   write upper_bound;
+}

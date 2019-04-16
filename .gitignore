@@ -1,0 +1,14 @@
+**/turingarena-files
+**/public
+*~
+*.aux
+*.log
+*.out
+*.pdf
+*.pyc
+*.zip
+**/inputs
+**/outputs
+**/inputs-extra
+**/outputs-extra
+**/generator
